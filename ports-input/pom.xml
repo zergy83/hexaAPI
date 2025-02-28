@@ -10,9 +10,9 @@
 	</parent>
 
 	<groupId>com.example</groupId>
-	<artifactId>controller-domain</artifactId>
+	<artifactId>ports-input</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>controller-domain</name>
+	<name>ports-input</name>
 	<description>User-side</description>
 
 	<dependencies>

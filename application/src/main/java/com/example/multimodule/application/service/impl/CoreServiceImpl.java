@@ -55,9 +55,9 @@ public class CoreServiceImpl implements CoreService {
     }
 
     /**
-     * Business logic method, I want to know the call count for this user
+     * Business logic method, I want to know the call count for this user, so I use Rest-domain module( a.k.a PORTS) to request another API
      * @param userName
-     * @return
+     * @return result of my core logic
      */
     @Override
     public int callAnotherAPI(String userName) {
@@ -68,6 +68,10 @@ public class CoreServiceImpl implements CoreService {
         return responseDTO.getNumberOfCallForThisUser() + 1;
     }
 
+    /**
+     * I want to persist so I Use
+     * @param callRegister
+     */
     @Override
     public void persistUserCall(UserCallRegister callRegister) {
         persistService.save(callRegister);

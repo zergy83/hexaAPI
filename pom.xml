@@ -4,14 +4,14 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>org.springframework</groupId>
-    <artifactId>gs-multi-module</artifactId>
+    <artifactId>HexagonalPOC</artifactId>
     <version>0.1.0</version>
     <packaging>pom</packaging>
 
     <modules>
-        <module>controller-domain</module>
         <module>application</module>
-        <module>rest-domain</module>
+        <module>ports-output</module>
+        <module>ports-input</module>
     </modules>
 
     <properties>

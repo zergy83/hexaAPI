@@ -26,7 +26,7 @@
 		</dependency>
 		<dependency>
 			<groupId>com.example</groupId>
-			<artifactId>controller-domain</artifactId>
+			<artifactId>ports-input</artifactId>
 			<version>${project.version}</version>
 		</dependency>
 
@@ -37,7 +37,7 @@
 		</dependency>
         <dependency>
             <groupId>com.example</groupId>
-            <artifactId>rest-domain</artifactId>
+            <artifactId>ports-output</artifactId>
             <version>0.2</version>
             <scope>compile</scope>
         </dependency>
