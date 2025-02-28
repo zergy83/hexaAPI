@@ -1,10 +1,10 @@
-package com.example.multimodule.application.service.impl;
+package com.example.multimodule.application.ports.service;
 
 import com.example.multimodule.application.dto.UserCoreReponseDTO;
 import com.example.multimodule.application.dto.UserCoreRequestDTO;
 import com.example.multimodule.application.mappers.UserCoreRequestMapper;
 import com.example.multimodule.application.model.UserCallTrace;
-import com.example.multimodule.application.service.CoreService;
+import com.example.multimodule.application.ports.CoreService;
 import com.example.multimodule.service.dto.HorizontalGetRequestDTO;
 import com.example.multimodule.service.dto.HorizontalGetResponseDTO;
 import com.example.multimodule.service.model.UserCallRegister;

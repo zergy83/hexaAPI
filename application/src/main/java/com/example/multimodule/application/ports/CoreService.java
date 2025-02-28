@@ -1,4 +1,4 @@
-package com.example.multimodule.application.service;
+package com.example.multimodule.application.ports;
 
 import com.example.multimodule.application.dto.UserCoreReponseDTO;
 import com.example.multimodule.application.dto.UserCoreRequestDTO;
